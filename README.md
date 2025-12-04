@@ -8,7 +8,14 @@
 [![GitHub](https://img.shields.io/badge/ViDoRe_Benchmark-100000?style=for-the-badge&logo=github&logoColor=white)](https://github.com/illuin-tech/vidore-benchmark)
 [![Hugging Face](https://img.shields.io/badge/Vidore_Hf_Space-FFD21E?style=for-the-badge&logo=huggingface&logoColor=000)](https://huggingface.co/goodman2001/colqwen3-v0.1)
 
-## Associated Paper
+## 📜 News
+
+**[2025.12.02]** 🎉🎉 I have released the [ColQwen3-v0.1](https://huggingface.co/goodman2001/colqwen3-v0.1) model based on ColQwen3-Base
+
+**[2025.12.02]** 🎉🎉 I have released the [ColQwen3-Base](https://huggingface.co/goodman2001/colqwen3-base) model based on Qwen3-VL-2B-Instruct
+
+
+## Related Work
 
 This repository contains the code used for training the **ColQwen3**, which is a vision retriever based on the ColBERT architecture and the **Qwen3-VL-2B** model.
 
@@ -29,7 +36,7 @@ This version is trained with `colpali-engine==0.3.14`.
 
 Data is the same as the ColPali data described in the paper.
 
-## Setup
+## ⚙️ Setup
 
 All models are trained for **only 1 epoch** on the train set. Unless specified otherwise, we train models in `bfloat16` format, use low-rank adapters ([LoRA](https://arxiv.org/abs/2106.09685)) 
 with `alpha=32`  and `r=32` on the transformer layers from the language model, 

@@ -64,7 +64,7 @@ Make sure `colpali-engine` is installed from source or with a version superior t
 `transformers` version must be >= **4.57.1**.(compatible with Qwen3-VL interface)
 
 ```bash
-pip install git+https://github.com/Mungeryang/colqwen3
+pip install git+https://github.com/SSW-Talon/colqwen3
 ```
 
 ```python
